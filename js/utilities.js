@@ -1,20 +1,4 @@
-// function updateCaseNumber(isIncrease){
-//     const caseNumberField = document.getElementById('case-number-field');
-//     const caseNumberString = caseNumberField.value;
-//     const previousCaseNumber = parseInt(caseNumberString);
-    
-//     let newCaseNumber ;
-    
-//     if(isIncrease === true) {
-//         newCaseNumber = previousCaseNumber + 1;
-//     } else {
-//         newCaseNumber = previousCaseNumber - 1;
-//     }
-    
-//     caseNumberField.value = newCaseNumber;
-    
-//     return newCaseNumber;
-// }
+
 
 
 function getTextElementValueById (elementId) {
@@ -27,6 +11,7 @@ function getTextElementValueById (elementId) {
 
 
 function setTextElementValueById(elementId, value) {
+    console.count()
     const subTotalElement = document.getElementById(elementId);
     subTotalElement.innerText = value;
 }
